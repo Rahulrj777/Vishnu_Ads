@@ -169,14 +169,14 @@ const Home = () => {
                       you're a startup or an established brand,
                     </p>
 
-                    <div className="border-b border-gray-500 mt-4 md:mt-6 w-fit group">
+                    {/* <div className="border-b border-gray-500 mt-4 md:mt-6 w-fit group">
                       <button className="flex items-center gap-x-6 md:gap-x-20 font-ocr uppercase text-[14px] md:text-[18px]">
                         <span>Read More</span>{" "}
                         <span>
                           <FaArrowRightLong className="group-hover:rotate-45 duration-500 text-[14px] md:text-[16px]" />
                         </span>{" "}
                       </button>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
               </div>
