@@ -1,0 +1,196 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* header section */
+
+.slide-fade-animation {
+  display: inline-block;
+  color: white;
+  overflow: hidden;
+}
+
+.slide-fade-animation span {
+  opacity: 0;
+  transform: translateY(20px); /* Start each word slightly below */
+  display: inline-block;
+  animation: slideFadeIn 2.3s ease forwards infinite;
+}
+
+.slide-fade-animation span:nth-child(1) {
+  animation-delay: 0s;
+}
+.slide-fade-animation span:nth-child(2) {
+  animation-delay: 0.4s;
+}
+.slide-fade-animation span:nth-child(3) {
+  animation-delay: 0.8s;
+}
+.slide-fade-animation span:nth-child(4) {
+  animation-delay: 1.2s;
+}
+.slide-fade-animation span:nth-child(5) {
+  animation-delay: 1.6s;
+}
+
+/* Keyframes for looping slide and fade-in effect */
+@keyframes slideFadeIn {
+  0%, 80% {
+    opacity: 0;
+    transform: translateY(20px); /* Slide up from below */
+  }
+  30%, 50% {
+    opacity: 1;
+    transform: translateY(0); /* Stay in original position */
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(-20px); /* Slide up and fade out */
+  }
+}
+
+
+/* border animate */
+
+/* Define the keyframes for the animation */
+@keyframes border-left-to-right {
+  0% {
+    width: 0%; /* Start from 0% width */
+  }
+  100% {
+    width: 100%; /* End at full width */
+  }
+}
+
+/* Apply the animation to the border element */
+.animate-border-left-to-right {
+  animation: border-left-to-right 10s linear infinite; /* Loop the animation */
+}
+
+
+/*----------- bounce  --------*/
+
+@keyframes subtle-bounce {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-15px); /* Lower bounce */
+    }
+  }
+  
+  .animate-subtle-bounce {
+    animation: subtle-bounce 1s infinite; /* Duration of 2 seconds */
+  }
+  
+
+    /* ----------------- round glow ---------------- */
+
+    .inner-shadow {
+      box-shadow: inset 0 4px 6px rgba(0, 0, 0, 0.1); /* Custom inner shadow */
+    }
+    
+    .hover-inner-shadow:hover {
+      box-shadow: inset 0 4px 6px rgba(0, 0, 0, 0.25); /* Darker shadow on hover */
+    }
+
+
+
+    .slick-arrow {
+      visibility: hidden; 
+  }
+  
+
+
+  
+
+/* Link Button Styling */
+.animated-btn {
+  position: relative;
+  transition: color 0.3s ease;
+}
+
+
+/* Top to Bottom Animation */
+.top-span {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(to right, #0c002b, #1779ff);
+  animation: animate1 2s linear infinite;
+}
+
+@keyframes animate1 {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+/* Right to Left Animation */
+.right-span {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 4px;
+  height: 100%;
+  background: linear-gradient(to bottom, #0c002b, #1779ff);
+  animation: animate2 2s linear infinite;
+  animation-delay: 1s;
+}
+
+@keyframes animate2 {
+  0% {
+    transform: translateY(-100%);
+  }
+  100% {
+    transform: translateY(100%);
+  }
+}
+
+/* Bottom to Top Animation */
+.bottom-span {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(to left, #0c002b, #1779ff);
+  animation: animate3 2s linear infinite;
+}
+
+@keyframes animate3 {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+/* Left to Right Animation */
+.left-span {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(to top, #0c002b, #1779ff);
+  animation: animate4 2s linear infinite;
+  animation-delay: 1s;
+}
+
+@keyframes animate4 {
+  0% {
+    transform: translateY(100%);
+  }
+  100% {
+    transform: translateY(-100%);
+  }
+}
+  

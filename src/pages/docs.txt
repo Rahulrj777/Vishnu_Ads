@@ -1,0 +1,54 @@
+ {
+        title: titleSeven,
+        description: 'From concept to creation, we bring your product to life. Designs that aren’t just functional—they’re pieces of art that showcase your brand in its best light.',
+        icon: 'https://controleur.ca/wp-content/uploads/2021/10/expand.svg'
+    },
+
+    {
+        title: titleEight,
+        description: 'Now it’s time to make your brand known. We design a comprehensive advertising plan that’s bold, strategic, and impactful. This is where the magic starts to unfold.',
+        icon: 'https://controleur.ca/wp-content/uploads/2021/10/expand.svg'
+    },
+    {
+        title: titleNine,
+        description: 'Lights, camera, action! We capture your brand’s essence through powerful ads that speak volumes. Every shot is designed to leave a lasting impression.',
+        icon: 'https://controleur.ca/wp-content/uploads/2021/10/expand.svg'
+    },
+    {
+        title: titleTen,
+        description: 'With your ads in place, we release them to the world, ensuring your message reaches the right eyes at the right time. Your brand is no longer just a name—it’s a movement.',
+        icon: 'https://controleur.ca/wp-content/uploads/2021/10/expand.svg'
+    },
+    {
+        title: title11,
+        description: 'We take your brand into the digital world, where clicks turn into conversations. Through tailored digital marketing strategies, we ensure your brand stays top-of-mind across platforms.',
+        icon: 'https://controleur.ca/wp-content/uploads/2021/10/expand.svg'
+    },
+    {
+        title: title12,
+        description: 'We then harness the voices of influencers who align with your brand, amplifying your message and creating authentic connections with your audience.',
+        icon: 'https://controleur.ca/wp-content/uploads/2021/10/expand.svg'
+    },
+    {
+        title: title13,
+        description: 'Finally, your brand is no longer local—it’s global. We take your products to every corner of the world, ensuring your brand becomes a household name everywhere.',
+        icon: 'https://controleur.ca/wp-content/uploads/2021/10/expand.svg'
+    },
+    {
+        title: title14,
+        description: 'From the first spark of an idea to a globally recognized brand, together we’ve turned your dream into a reality. And this? This is only the beginning. The story of your brand is just getting started, and it’s destined for greatness.',
+        icon: 'https://controleur.ca/wp-content/uploads/2021/10/expand.svg'
+    },
+
+
+
+
+
+    import titleSeven from '../images/new_proces/design.png'
+import titleEight from '../images/new_proces/planning.png'
+import titleNine from '../images/new_proces/bringing.png'
+import titleTen from '../images/new_proces/world_watches.png'
+import title11 from '../images/new_proces/digital.png'
+import title12 from '../images/new_proces/power_of_influence.png'
+import title13 from '../images/new_proces/global.png'
+import title14 from '../images/new_proces/and.png'

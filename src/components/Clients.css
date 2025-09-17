@@ -1,0 +1,11 @@
+/* Hide the left arrow */
+.react-multiple-carousel__arrow--left {
+    visibility: hidden;
+  }
+  
+  /* Hide the right arrow */
+  .react-multiple-carousel__arrow--right {
+    visibility: hidden;
+  }
+
+  
